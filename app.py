@@ -1,12 +1,8 @@
-from pdf_parser import pdf_parser
 from groq_env import client
 from system_prompt import prompt
-from IPython.display import Markdown, display
 import streamlit as st
-from io import StringIO
 from langchain_community.document_loaders import PyMuPDFLoader
 
-file_path = r"C:\Users\Admin\Downloads\Gaurav_Patil_AI.pdf"
 
 # input_text = pdf_parser(file_path)
 # jd = """
